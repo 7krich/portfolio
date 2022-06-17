@@ -18,7 +18,7 @@ function Nav(props) {
             <h2>
                 <a className="main" href="/">
                     <img className="portfolio-pic"
-                    src={require('../../assets/portfolioPortrait.jpg')}
+                    src={require('../../assets/images/portfolioPortrait.jpg')}
                     alt="Author"
                     />
                     <div className="title">

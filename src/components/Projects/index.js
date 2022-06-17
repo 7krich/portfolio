@@ -1,4 +1,5 @@
 import React from 'react';
+import Gallery from '../Gallery'
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Projects (props) {
@@ -7,6 +8,7 @@ function Projects (props) {
         <section>
             <h1>{capitalizeFirstLetter(currentCategory.name)}</h1>
             <p>{currentCategory.description}</p>
+            <Gallery category={currentCategory.name}/>
         </section>
     );
 };

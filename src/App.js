@@ -5,10 +5,10 @@ import Projects from './components/Projects';
 function App() {
   const [categories] = useState([
     {
-      name: 'About Me',
+      name: 'Projects',
       description: 'Lorem Ipsum',
     },
-    { name: 'Projects', description: 'Dynamic Web Applications' },
+    { name: 'About Me', description: 'Dynamic Web Applications' },
     { name: 'Contact', description: 'Lorem' },
     { name: 'Experience', description: 'Lorem Ipsum' },
   ]);
@@ -23,7 +23,9 @@ function App() {
       currentCategory={currentCategory}
       ></Nav>
       <main>
+        <>
         <Projects currentCategory={currentCategory}></Projects>
+        </>
       </main>
     </div>
   );
