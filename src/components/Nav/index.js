@@ -14,21 +14,22 @@ function Nav(props) {
     }, [currentCategory]);
 
     return(
-        <header>
+        <header className="flex-row">
             <h2>
-                <a href="/">
+                <a className="main" href="/">
                     <img className="portfolio-pic"
                     src={require('../../assets/portfolioPortrait.jpg')}
                     alt="Author"
                     />
-                    Portfolio
+                    <div className="title">
+                    PORTFOLIO
+                    </div>
                 </a>
-                
             </h2>
             <nav>
-                <ul className ="nav-ul">
+                <ul className="flex-row">
                     {categories.map((category) => (
-                        <li className={`${
+                        <li className={`nav-items ${
                             // if true, return navActive
                             currentCategory.name === category.name && `navActive`
                         }`}
@@ -36,7 +37,7 @@ function Nav(props) {
                         // keep track of elements in VDOM
                         key={category.name}
                         >
-                            <span
+                            <span className="nav-items"
                                 onClick={() => {setCurrentCategory(category)
                             }}
                             >
@@ -47,7 +48,7 @@ function Nav(props) {
                 </ul>
             </nav>
         </header>
-    )
-}
+    );
+};
 
 export default Nav;
