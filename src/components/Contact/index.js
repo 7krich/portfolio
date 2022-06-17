@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 // import validate email function
 import { validateEmail } from '../../utils/helpers';
+import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function ContactForm() {
+function ContactForm(props) {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
+    const { currentCategory } = props;
 
     // sync the internal state of the component formState with the user input from the DOM
     // onChange event listener will ensure that the handleChange function fires when keystroke is typed into input field
@@ -47,7 +49,9 @@ function ContactForm() {
     }
     return(
         <section>
-            <h1>Contact me</h1>
+            <div className="title-containter">
+                <h1 className="page-title-text">{capitalizeFirstLetter(currentCategory.name)}</h1>
+            </div>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>

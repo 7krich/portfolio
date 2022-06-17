@@ -16,20 +16,23 @@ code {
   --secondary: rgb(56, 56, 56);
 }
 
-.main {
+/* nav css */
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.dashboard {
+  display: flex;
   text-decoration: none;
   color: white;
   text-shadow: 1px 1px 1cm #000000;
 }
 
-/* nav css */
-
-.main {
-  display: flex;
-}
-
 .portfolio-pic {
-  padding-left: 20px;
+  margin-left: 40px;
   border-radius: 50%;
   max-width: 50px;
   flex-wrap: wrap;
@@ -60,7 +63,7 @@ nav {
 .span {
   color:azure
 }
-
+/* nav text */
 .nav-items {
   list-style: none;
   padding-left: 20px;
@@ -72,12 +75,12 @@ nav {
   color:rgb(189, 189, 189);
 }
 
-.nav-items.false {
-  border-left: 2px solid rgb(255, 255, 255);
-}
-
+/* active nav text */
 .navActive {
-  border-left: 2px solid rgb(255, 255, 255);
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(63, 239, 255);
 }
 
 .main {
@@ -91,7 +94,19 @@ nav {
   padding-left: 40px;
 }
 
-/* gallery photos */
+/* body headings */
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(233, 233, 233, 0.589);
+  width: 25%;
+  margin: auto;
+}
+
+.page-title-text {
+  margin-top: 40px;
+  font-size: 40px;
+}
 
 /* MEADIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {

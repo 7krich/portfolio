@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Nav(props) {
+const Nav = (props) => {
     // add useState hook to have option to easilty change categories in future
     const {
         categories = [],
@@ -16,7 +16,7 @@ function Nav(props) {
     return(
         <header className="flex-row">
             <h2>
-                <a className="main" href="/">
+                <a className="dashboard" href="/">
                     <img className="portfolio-pic"
                     src={require('../../assets/images/portfolioPortrait.jpg')}
                     alt="Author"
@@ -29,15 +29,15 @@ function Nav(props) {
             <nav>
                 <ul className="flex-row">
                     {categories.map((category) => (
-                        <li className={`nav-items ${
+                        <li className={
                             // if true, return navActive
-                            currentCategory.name === category.name && `navActive`
-                        }`}
+                            currentCategory.name === category.name ? `navActive` : 'nav-items'
+                        }
                         // outermost element must have a key attribute
                         // keep track of elements in VDOM
                         key={category.name}
                         >
-                            <span className="nav-items"
+                            <span className={currentCategory.name === category.name ? `navActive` : 'nav-items'}
                                 onClick={() => {setCurrentCategory(category)
                             }}
                             >
