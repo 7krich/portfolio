@@ -4,10 +4,9 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 function Nav(props) {
     // add useState hook to have option to easilty change categories in future
     const {
-        categorgies = [],
+        categories = [],
         setCurrentCategory,
-        currentCategory,
-        contactSelected
+        currentCategory
     } = props;
 
     useEffect(() => {
@@ -18,7 +17,7 @@ function Nav(props) {
         <header>
             <h2>
                 <a href="/">
-                    <img
+                    <img className="portfolio-pic"
                     src={require('../../assets/portfolioPortrait.jpg')}
                     alt="Author"
                     />
@@ -28,10 +27,10 @@ function Nav(props) {
             </h2>
             <nav>
                 <ul className ="nav-ul">
-                    {categorgies.map((category) => (
+                    {categories.map((category) => (
                         <li className={`${
                             // if true, return navActive
-                            currentCategory.name === category.name && !contactSelected & `navActive`
+                            currentCategory.name === category.name && `navActive`
                         }`}
                         // outermost element must have a key attribute
                         // keep track of elements in VDOM

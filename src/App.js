@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
+import Projects from './components/Projects';
 
 function App() {
   const [categories] = useState([
@@ -12,7 +13,6 @@ function App() {
     { name: 'Experience', description: 'Lorem Ipsum' },
   ]);
 
-  const [contactSelected, setContactSelected] = useState(false);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
@@ -21,9 +21,10 @@ function App() {
       categories={categories}
       setCurrentCategory={setCurrentCategory}
       currentCategory={currentCategory}
-      contactSelected={contactSelected}
-      setContactSelected={setContactSelected}
       ></Nav>
+      <main>
+        <Projects currentCategory={currentCategory}></Projects>
+      </main>
     </div>
   );
 }

@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.portfolio-pic {
+  border-radius: 50%;
+  max-width: 50px;
+  margin-left: 20px;
+}
+
+.main {
+  text-decoration: none;
+}
