@@ -108,6 +108,22 @@ h1 {
   font-size: 40px;
 }
 
+/* gallery photo styles */
+#gallery-pics-large {
+  max-width: 55%;
+  padding: 20px;
+  background-color:rgb(56, 56, 56);
+  border-radius: 10px;
+}
+
+.gallery-pics {
+  margin-left: 20px;
+}
+
+.project-body {
+  background-color: gray;
+}
+
 /* MEADIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
   /* this will be applied on any screen smaller than 575px */
