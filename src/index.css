@@ -19,6 +19,7 @@ code {
 .main {
   text-decoration: none;
   color: white;
+  text-shadow: 1px 1px 1cm #000000;
 }
 
 /* nav css */
@@ -28,6 +29,7 @@ code {
 }
 
 .portfolio-pic {
+  padding-left: 20px;
   border-radius: 50%;
   max-width: 50px;
   flex-wrap: wrap;
@@ -46,13 +48,13 @@ nav li {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(55, 55, 55);
+  background-color: rgb(46, 46, 46);
   position: sticky;
 }
 
 nav {
-  margin-left: 625px;
-  margin-top: 34px;
+  margin-left: 585px;
+  margin-top: 30px;
 }
 
 .span {
@@ -86,8 +88,10 @@ nav {
 .title {
   flex-wrap: wrap;
   padding-top: 8px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
+
+/* gallery photos */
 
 /* MEADIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
