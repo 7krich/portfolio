@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 body::after {
@@ -62,6 +61,7 @@ nav li {
 }
 
 .flex-row {
+  width: 100%;
   margin: 0;
   padding: 0;
   display: flex;
@@ -72,7 +72,7 @@ nav li {
 
 nav {
   margin-left: 570px;
-  margin-top: 30px;
+  margin-top: 34px;
 }
 
 .span {
@@ -179,6 +179,42 @@ h1 {
   background: #009938;
 }
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
+@media screen and (max-width: 980px) {
+  /* this will be applied to any screen smaller than 980px */
+  header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+  }
+
+  nav {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 35px;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  /* this will be applied on any screen between 768px and 575px */
+  .feature-item img {
+      width: 80%;
+  }
+
+  .small-project img {
+      width: 50%;
+  }
+
+  #about-me p {
+      width: 90%;
+  }
+}
 
 /* MEADIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
