@@ -13,7 +13,8 @@ code {
 }
 
 :root {
-  --secondary: rgb(56, 56, 56);
+  --secondary: rgb(46, 46, 46);
+  --tertiary: rgb(63, 239, 255);
 }
 
 /* nav css */
@@ -51,7 +52,7 @@ nav li {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(46, 46, 46);
+  background-color: var(--secondary);
   position: sticky;
 }
 
@@ -109,20 +110,26 @@ h1 {
 }
 
 /* gallery photo styles */
-#gallery-pics-large {
-  max-width: 55%;
-  padding: 20px;
-  background-color:rgb(56, 56, 56);
-  border-radius: 10px;
+.gallery-pics-large {
+  margin: auto;
+  width: 50%;
 }
 
-.gallery-pics {
-  margin-left: 20px;
-}
 
 .project-body {
   background-color: gray;
 }
+
+.img-container {
+  height: 90%;
+  padding-left: 20px;
+}
+
+img:hover {
+  opacity: .5;
+}
+
+
 
 /* MEADIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
