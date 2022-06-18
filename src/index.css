@@ -5,7 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+
+body::after {
+  content: "";
   background-color: #e2e2e2;
+  background-image: url(./assets/images/layers.png);
+  opacity: .25;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
 }
 
 code {
@@ -58,7 +71,7 @@ nav li {
 }
 
 nav {
-  margin-left: 585px;
+  margin-left: 570px;
   margin-top: 30px;
 }
 
@@ -94,6 +107,7 @@ nav {
   flex-wrap: wrap;
   padding-top: 8px;
   padding-left: 40px;
+  letter-spacing: 2px;
 }
 
 /* body headings */
@@ -122,7 +136,7 @@ h1 {
   margin: auto;
   width: 45%;
   height: 40%;
-  opacity: .5;
+  opacity: .65;
   padding: 20px;
   border-radius: 40px;
 }
@@ -155,7 +169,7 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.7;
+  opacity: 0.8;
   background: #0057e3;
 }
 
