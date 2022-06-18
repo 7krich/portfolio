@@ -53,24 +53,26 @@ function ContactForm(props) {
                 <h1 className="page-title-text">{capitalizeFirstLetter(currentCategory.name)}</h1>
             </div>
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} name="name" onBlur={handleChange}/>
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue = {email} name="email" onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue = {message} onBlur={handleChange} rows="5" />
-                </div>
-                {errorMessage && (
+                <div className="center">
                     <div>
-                        <p className="error-text">{errorMessage}</p>
+                        <label htmlFor="name">Name:</label>
+                        <input type="text" defaultValue={name} name="name" onBlur={handleChange}/>
                     </div>
-                )}
-                <button type="submit">Submit</button>
+                    <div>
+                        <label htmlFor="email">Email address:</label>
+                        <input type="email" defaultValue = {email} name="email" onBlur={handleChange} />
+                    </div>
+                    <div>
+                        <label htmlFor="message">Message:</label>
+                        <textarea name="message" defaultValue = {message} onBlur={handleChange} rows="5" />
+                    </div>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
+                    <button type="submit">Submit</button>
+                </div>
             </form>
         </section>
     );
