@@ -2,27 +2,28 @@ import React from 'react'
 
 function Gallery () {
 
-    // new tab function
-    const openInNewTab = url => {
-        window.open(url, '_blank', 'noopener,noreferrer');
-    };
-
     return (
-        <div>
-            <div className="img-container">
-            <a className="link" href="https://limitless-journey-42984.herokuapp.com/">
+        <containter className="flex">
+        <div className="img-container">
+            <a className="link" href="https://limitless-journey-42984.herokuapp.com/"> 
                 <img  
                     src={require(`../../assets/images/fullstack/0.jpg`)}
-                    className="gallery-pics-large"
+                    className="gallery-pics"
                     alt= "The B word"
                     key= "The B word"
                 />
                 </a>
-                <button className="photo-btn" onClick={() => openInNewTab('https://limitless-journey-42984.herokuapp.com/')}>
-                VIEW
-                </button>
-            </div>
+            <a className="link" href="https://7krich.github.io/project01/"> 
+                <img  
+                    src={require(`../../assets/images/front-end/0.jpg`)}
+                    className="gallery-pics"
+                    alt= "Le Festin"
+                    key= "Le Festin"
+                />
+                </a>
         </div>
+    </containter>
+        
     )
 }
 
