@@ -19,11 +19,11 @@ function App() {
 
   return (
     <div>
-      <Nav
-      categories={categories}
-      setCurrentCategory={setCurrentCategory}
-      currentCategory={currentCategory}
-      ></Nav>
+        <Nav
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+        ></Nav>
       <main>
           <>
           { currentCategory.name === 'Projects' &&

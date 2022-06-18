@@ -26,8 +26,8 @@ const Nav = (props) => {
                     </div>
                 </a>
             </h2>
-            <nav>
-                <ul className="flex-row">
+            <nav className="dynamic-nav">
+                <ul className="flex-row dynamic-flex">
                     {categories.map((category) => (
                         <li className={
                             // if true, return navActive

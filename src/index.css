@@ -180,6 +180,54 @@ h1 {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
+@media screen and (max-width: 1439px) {
+  /* this will be applied to any screen smaller than 980px */
+  header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+  }
+
+  .dynamic-flex {
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .dynamic-nav {
+    width: 100%;
+  }
+
+  nav {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .dashboard {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title {
+    padding: 0px;
+  }
+  
+  .portfolio-pic {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
 @media screen and (max-width: 980px) {
   /* this will be applied to any screen smaller than 980px */
   header {
@@ -189,8 +237,6 @@ h1 {
   }
 
   nav {
-    margin-left: 20%;
-    margin-right: 20%;
     margin-bottom: 35px;
   }
 
@@ -203,17 +249,6 @@ h1 {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
   /* this will be applied on any screen between 768px and 575px */
-  .feature-item img {
-      width: 80%;
-  }
-
-  .small-project img {
-      width: 50%;
-  }
-
-  #about-me p {
-      width: 90%;
-  }
 }
 
 /* MEADIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -233,10 +268,7 @@ h1 {
     padding: 0px;
   }
 
-  h2 {
-    margin: auto;
-    width: 50%;
-  }
+
 
   .hero-text h2 {
       margin: auto;
