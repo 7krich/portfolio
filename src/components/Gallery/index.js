@@ -5,7 +5,7 @@ function Gallery () {
     return (
         <containter className="flex">
         <div className="img-container">
-            <a className="link" href="https://limitless-journey-42984.herokuapp.com/"> 
+            <a className="link" href="https://limitless-journey-42984.herokuapp.com/" target="_blank" rel="noreferrer"> 
                 <img  
                     src={require(`../../assets/images/fullstack/0.jpg`)}
                     className="gallery-pics"
@@ -13,7 +13,7 @@ function Gallery () {
                     key= "The B word"
                 />
                 </a>
-            <a className="link" href="https://7krich.github.io/project01/"> 
+            <a className="link" href="https://7krich.github.io/project01/" target="_blank" rel="noreferrer"> 
                 <img  
                     src={require(`../../assets/images/front-end/0.jpg`)}
                     className="gallery-pics"
