@@ -244,6 +244,20 @@ h1 {
     margin-bottom: 10px;
   }
 
+  .img-container {
+    width: 90%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .gallery-pics {
+    width: 100%;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+  }
+
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -267,8 +281,6 @@ h1 {
   .title {
     padding: 0px;
   }
-
-
 
   .hero-text h2 {
       margin: auto;

@@ -16,7 +16,7 @@ const Nav = (props) => {
     return(
         <header className="flex-row">
             <h2>
-                <a className="dashboard" href="/">
+                <a className="dashboard" href="/portfolio">
                     <img className="portfolio-pic"
                     src={require('../../assets/images/portfolioPortrait.jpg')}
                     alt="Author"
