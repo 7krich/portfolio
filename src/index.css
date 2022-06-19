@@ -11,6 +11,9 @@ body::after {
   content: "";
   background-color: #e2e2e2;
   background-image: url(./assets/images/layers.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   opacity: .25;
   top: 0;
   left: 0;
@@ -71,8 +74,12 @@ nav li {
 }
 
 nav {
-  margin-left: 570px;
   margin-top: 34px;
+}
+
+.dynamic-nav {
+  margin-left: auto;
+  order: 2;
 }
 
 .span {
@@ -193,50 +200,10 @@ h1 {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
-@media screen and (max-width: 1439px) {
+/* @media screen and (max-width: 1439px) { */
   /* this will be applied to any screen smaller than 980px */
-  header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: relative;
-  }
 
-  .dynamic-flex {
-    width: 50%;
-    margin: auto;
-    justify-content: center;
-  }
-
-  .dynamic-nav {
-    width: 100%;
-  }
-
-  nav {
-    width: 50%;
-    margin: auto;
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
-
-  .dashboard {
-    width: 100%;
-    margin: auto;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .title {
-    padding: 0px;
-  }
-  
-  .portfolio-pic {
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
+/* } */
 
 
 
@@ -244,24 +211,46 @@ h1 {
 @media screen and (max-width: 980px) {
   /* this will be applied to any screen smaller than 980px */
   header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: relative;
-  }
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+}
 
-  nav {
-    margin-bottom: 35px;
-  }
+.dynamic-flex {
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+}
 
-  h2 {
-    margin-bottom: 10px;
-  }
+.dynamic-nav {
+  width: 100%;
+}
 
-  .img-container {
-    width: 90%;
-    margin: auto;
-    padding: 0;
-  }
+nav {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.dashboard {
+  width: 100%;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  padding: 0px;
+}
+
+.portfolio-pic {
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
   .gallery-pics {
     width: 100%;
