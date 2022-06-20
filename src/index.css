@@ -11,7 +11,7 @@ body::after {
   content: "";
   background-color: #e2e2e2;
   background-image: url(./assets/images/layers.png);
-  background-size: 100%;
+  background-size: 150%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   opacity: .25;
@@ -252,13 +252,18 @@ nav {
   padding-right: 0px;
 }
 
-  .gallery-pics {
+.gallery-pics {
     width: 100%;
     margin: 0;
     padding-left: 0;
     padding-right: 0;
     padding-top: 10px;
-  }
+}
+
+.img-container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 }
 
