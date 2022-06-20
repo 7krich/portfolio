@@ -145,6 +145,28 @@ h1 {
   text-align: left;
 }
 
+.heading {
+  max-width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-right: 4px solid rgba(63, 239, 255, 0.189);
+  border-bottom: 4px solid rgba(63, 239, 255, 0.189);
+  border-radius: 8px;
+}
+
+.ed-heading {
+  max-width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-right: 4px solid rgba(63, 239, 255, 0.189);
+  border-bottom: 4px solid rgba(63, 239, 255, 0.189);
+  border-radius: 8px;
+}
+
 /* gallery photo styles */
 .flex {
   margin: 0;
@@ -314,6 +336,10 @@ nav {
     margin-top: 20px;
     text-align: center;
     flex-wrap: wrap;
+  }
+
+  .duties {
+    max-width: 80%;
   }
 
   footer p{

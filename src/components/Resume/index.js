@@ -38,7 +38,7 @@ function Resume () {
                 <div className="ed-section">
                     <h2> Education </h2>
                     {/* University of Maryland */}
-                    <h3 className="heading">
+                    <h3 className="ed-heading">
                         University of Maryland, College Park, MD
                     </h3>
                     <h4 className="degree">
@@ -49,7 +49,7 @@ function Resume () {
                     </ul>
 
                     {/* Michigan State */}
-                    <h3 className="heading">
+                    <h3 className="ed-heading">
                         Michigan State University, Lansing, MI
                     </h3>
                     <h4 className="degree">
@@ -61,7 +61,7 @@ function Resume () {
                     </ul>
 
                     {/* AACC */}
-                        <h3 className="heading">
+                        <h3 className="ed-heading">
                         Anne Arundel Community College, Arnold, MD
                     </h3>
                     <h4 className="degree">
