@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
+import Hamburger from '../Hamburger'
 
 const Nav = (props) => {
     // add useState hook to have option to easilty change categories in future
@@ -8,13 +9,19 @@ const Nav = (props) => {
         setCurrentCategory,
         currentCategory
     } = props;
+    
+    const [hamburgerOpen, setHamburgerOpen] = useState(false);
+
+    const toggleHamburger = () => {
+        setHamburgerOpen(!hamburgerOpen)
+    }
 
     useEffect(() => {
         document.title = capitalizeFirstLetter(currentCategory.name);
     }, [currentCategory]);
 
     return(
-        <header className="flex-row">
+        <header className="nav-row">
             <h2>
                 <a className="dashboard" href="/portfolio">
                     <img className="portfolio-pic"
@@ -27,7 +34,7 @@ const Nav = (props) => {
                 </a>
             </h2>
             <nav className="dynamic-nav">
-                <ul className="flex-row dynamic-flex">
+                <ul className="nav-row dynamic-flex">
                     {categories.map((category) => (
                         <li className={
                             // if true, return navActive
@@ -46,6 +53,18 @@ const Nav = (props) => {
                         </li>
                     ))}
                 </ul>
+
+                <div className="hamburger" onClick={toggleHamburger}>
+                    <Hamburger isOpen={hamburgerOpen}/>
+                </div>
+
+                <style jsx>{`
+                @media screen and (max-width: 980px) {
+                    .nav-row ul {
+                        display: ${hamburgerOpen ? 'inline' : 'none'};
+                }
+                        `}
+                </style>
             </nav>
         </header>
     );
