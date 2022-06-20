@@ -8,7 +8,7 @@ function Experience (props) {
     return(
         <section className="title-containter">
             <h1 className="page-title-text">{capitalizeFirstLetter(currentCategory.name)}</h1>
-            <div className="resumeText">
+            <div className="resume-text">
                 <Resume></Resume>
             </div>
         </section>

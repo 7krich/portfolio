@@ -9,11 +9,6 @@ body {
 
 body::after {
   content: "";
-  background-color: #e2e2e2;
-  background-image: url(./assets/images/layers.png);
-  background-size: 150%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   opacity: .25;
   top: 0;
   left: 0;
@@ -131,6 +126,25 @@ h1 {
   font-size: 40px;
 }
 
+/* experience body text */
+.resume-text {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.duties {
+  background-color: var(--secondary);
+  max-width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: left;
+}
+
 /* gallery photo styles */
 .flex {
   margin: 0;
@@ -198,13 +212,6 @@ h1 {
   margin: auto;
   padding-left: 25%;
 }
-
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
-/* @media screen and (max-width: 1439px) { */
-  /* this will be applied to any screen smaller than 980px */
-
-/* } */
-
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
