@@ -55,16 +55,16 @@ function ContactForm(props) {
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div className="center">
                     <div>
-                        <label htmlFor="name">Name:</label>
-                        <input type="text" defaultValue={name} name="name" onBlur={handleChange}/>
+                        <label htmlFor="name" className="field-title" >Name:</label>
+                        <input type="text" className="text-field" defaultValue={name} name="name" onBlur={handleChange}/>
                     </div>
                     <div>
-                        <label htmlFor="email">Email address:</label>
-                        <input type="email" defaultValue = {email} name="email" onBlur={handleChange} />
+                        <label htmlFor="email" className="field-title">Email address:</label>
+                        <input type="email" className="text-field" defaultValue = {email} name="email" onBlur={handleChange} />
                     </div>
                     <div>
-                        <label htmlFor="message">Message:</label>
-                        <textarea name="message" defaultValue = {message} onBlur={handleChange} rows="5" />
+                        <label htmlFor="message" className="field-title">Message:</label>
+                        <textarea name="message" className="text-field" defaultValue = {message} onBlur={handleChange} rows="5" />
                     </div>
                     {errorMessage && (
                         <div>

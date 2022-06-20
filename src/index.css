@@ -252,13 +252,33 @@ h1 {
 #contact-form {
   width: 100%;
   margin: 0;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .center {
   width: 50%;
   margin: auto;
-  padding-left: 25%;
+  justify-content: center;
+  text-align: left;
+}
+
+
+.text-field {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.text-field:focus {
+  border: none;
+  border-bottom: 2px solid var(--tertiary);
+  outline: none;
+  transition-duration: 1s;
 }
 
 /* About Me styles */
@@ -365,6 +385,18 @@ nav {
   /* this will be applied on any screen between 768px and 575px */
   .heading {
     max-width: 50%;
+  }
+
+  .center {
+    width: 90%;
+  }
+
+  .text-field {
+    width: 90%;
+  }
+
+  #contact-form {
+    padding-top: 15%;
   }
 }
 
