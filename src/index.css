@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 20px;
 }
 
 body::after {
@@ -150,7 +151,6 @@ h1 {
 /* experience body text */
 .resume-text {
   text-align: center;
-  padding-bottom: 20px;
 }
 
 .ex-section, .ed-section {
@@ -223,11 +223,15 @@ h1 {
 
 .gallery-pics {
   margin: auto;
+  width: 100%;
+  opacity: .65;
+  border-radius: 40px;
+}
+
+.single-photo {
   width: 45%;
   height: 40%;
-  opacity: .65;
-  padding: 20px;
-  border-radius: 40px;
+  margin: 1%;
 }
 
 .project-body {
@@ -235,16 +239,20 @@ h1 {
 }
 
 .img-container {
+  justify-content: space-around;
   height: 90%;
-  padding-left: 40px;
-  flex-direction: row;
+  display: flex;
 }
 
 .gallery-pics:hover {
   opacity: 1;
-  transition-duration: 1.5s;
+  transition-duration: 1s;
   border-radius: 40px;
   cursor: pointer;
+}
+
+.gh-buttons {
+  margin-top: 10px;
 }
 
 .gallery-pics:after {
@@ -294,8 +302,7 @@ h1 {
   border: none;
   border-bottom: 2px solid var(--tertiary);
   outline: none;
-  -moz-transition: 1s ease all; 
-  -webkit-transition: 1s ease all;
+  -webkit-transition: .5s ease all;
 }
 
 button {
@@ -312,8 +319,8 @@ button {
 }
 
 button:hover {
-  background-image: linear-gradient(rgb(201, 235, 253), var(--tertiary));
-  -webkit-transition: 1s ease all;
+  background-image: linear-gradient(rgb(226, 226, 226), var(--tertiary));
+  -webkit-transition: .5s ease all;
   color: var(--secondary);
   font-weight: normal;
   text-shadow: 1px 1px 1cm rgb(253, 253, 253);
@@ -427,14 +434,19 @@ nav {
 }
 
 .gallery-pics {
-    width: 100%;
-    margin: 0;
+    margin: auto;
     padding-left: 0;
     padding-right: 0;
     padding-top: 10px;
 }
 
+.single-photo {
+  width: 90%;
+  margin: auto;
+}
+
 .img-container {
+  display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -476,7 +488,7 @@ nav {
   }
 }
 
-/* MEADIA QUERY FOR MOBILE PHONES AND SMALLER */
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
   /* this will be applied on any screen smaller than 575px */
   body {
