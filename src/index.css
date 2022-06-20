@@ -253,6 +253,24 @@ h1 {
 
 .gh-buttons {
   margin-top: 10px;
+  margin-left: 35%;
+  width: 30%;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: var(--secondary);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  border: 1px solid rgb(33, 132, 141);
+}
+
+.gh-buttons:hover {
+  background-color: rgb(33, 132, 141);
+  -webkit-transition: .5s ease all;
+  border: 1px solid rgb(33, 132, 141);
+  color: white;
 }
 
 .gallery-pics:after {
@@ -305,7 +323,7 @@ h1 {
   -webkit-transition: .5s ease all;
 }
 
-button {
+.form-button {
   margin-left: 25%;
   width: 50%;
   border-radius: 20px;
@@ -318,7 +336,7 @@ button {
   font-weight: lighter;
 }
 
-button:hover {
+.form-button:hover {
   background-image: linear-gradient(rgb(226, 226, 226), var(--tertiary));
   -webkit-transition: .5s ease all;
   color: var(--secondary);

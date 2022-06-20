@@ -71,7 +71,7 @@ function ContactForm(props) {
                             <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                    <button type="submit">SUBMIT</button>
+                    <button className="form-button" type="submit">SUBMIT</button>
                 </div>
             </form>
         </section>
