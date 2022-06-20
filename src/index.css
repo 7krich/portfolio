@@ -261,6 +261,15 @@ h1 {
   padding-left: 25%;
 }
 
+/* About Me styles */
+.about-me {
+  padding-top: 40px;
+  font-size: 20px;
+  width: 65%;
+  margin: auto;
+  text-align: center;
+}
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
 @media screen and (max-width: 980px) {
