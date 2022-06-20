@@ -63,8 +63,11 @@ const Nav = (props) => {
                     .nav-row ul {
                         display: ${hamburgerOpen ? 'inline' : 'none'};
                 }
-                        `}
-                </style>
+                    .dynamic-nav {
+                        padding-top: ${hamburgerOpen ? '40px' : '0px'};
+                        padding-bottom: ${hamburgerOpen ? '20px' : '10px'};
+                }
+                `}</style>
             </nav>
         </header>
     );

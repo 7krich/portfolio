@@ -153,9 +153,13 @@ h1 {
   padding-bottom: 20px;
 }
 
+.ex-section, .ed-section {
+  padding-top: 20px;
+}
+
 .duties {
   background-color: var(--secondary);
-  max-width: 50%;
+  max-width: 25%;
   margin: auto;
   border-radius: 10px;
   padding-left: 40px;
@@ -164,6 +168,7 @@ h1 {
   padding-bottom: 20px;
   color: white;
   text-align: left;
+  font-size: 12px;
 }
 
 .heading {
@@ -172,8 +177,8 @@ h1 {
   margin-right: auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-right: 4px solid rgba(63, 239, 255, 0.189);
-  border-bottom: 4px solid rgba(63, 239, 255, 0.189);
+  border-right: 4px solid rgba(63, 239, 255, 0.5);
+  border-bottom: 4px solid rgba(63, 239, 255, 0.5);
   border-radius: 8px;
 }
 
@@ -183,8 +188,8 @@ h1 {
   margin-right: auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-right: 4px solid rgba(63, 239, 255, 0.189);
-  border-bottom: 4px solid rgba(63, 239, 255, 0.189);
+  border-right: 4px solid rgba(63, 239, 255, 0.5);
+  border-bottom: 4px solid rgba(63, 239, 255, 0.5);
   border-radius: 8px;
 }
 
@@ -260,10 +265,14 @@ h1 {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
 @media screen and (max-width: 980px) {
   /* this will be applied to any screen smaller than 980px */
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
+header {
+  padding-bottom: 0;
+  justify-content: center;
+  position: relative;
+}
+
+h2 {
+  margin: 0;
 }
 
 .dynamic-flex {
@@ -274,6 +283,7 @@ h1 {
 
 .dynamic-nav {
   width: 100%;
+  padding-top: 5px;
 }
 
 .nav-items {
@@ -294,7 +304,6 @@ nav {
   width: 50%;
   margin: auto;
   padding-bottom: 20px;
-  padding-top: 20px;
 }
 
 .dashboard {
