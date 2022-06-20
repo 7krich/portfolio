@@ -1,6 +1,6 @@
 import React from 'react';
 import Resume from '../Resume'
-import {capitalizeFirstLetter} from '../../utils/helpers'
+import {capitalizeFirstLetter} from '../../utils/helpers';
 
 function Experience (props) {
     const { currentCategory } = props;

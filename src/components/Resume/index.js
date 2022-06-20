@@ -1,4 +1,5 @@
 import React from 'react';
+import { GrDocumentDownload } from "react-icons/gr";
 
 function Resume () {
     return(
@@ -74,6 +75,11 @@ function Resume () {
                         <li>Certificate - Business Management(Marketing & Advertising)</li>
                         <li>Certificate - Business Management(Business Communications))</li>
                     </ul>
+                </div>
+                <div className="download-div">
+                    <a href="../assets/images/Resume6-2022.pdf" download>
+                        <GrDocumentDownload></GrDocumentDownload>
+                    </a>
                 </div>
             </div>
         </section>

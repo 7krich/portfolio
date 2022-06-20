@@ -4,6 +4,7 @@ import Projects from './components/Projects';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 
 function App() {
   const [categories] = useState([
@@ -40,6 +41,7 @@ function App() {
           }
           </>
       </main>
+      <Footer />
     </div>
   );
 }
