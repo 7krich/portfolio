@@ -8,7 +8,7 @@ function Projects (props) {
     // const [showGallery, setShowGallery] = useState(false)
     return(
         <section>
-            <div className="title-containter">
+            <div className="title-container">
                 <h1 className="page-title-text">{capitalizeFirstLetter(currentCategory.name)}</h1>
             </div>
             <p>{currentCategory.description}</p> 

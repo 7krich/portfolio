@@ -49,7 +49,7 @@ function ContactForm(props) {
     }
     return(
         <section>
-            <div className="title-containter">
+            <div className="title-container">
                 <h1 className="page-title-text">{capitalizeFirstLetter(currentCategory.name)}</h1>
             </div>
             <form id="contact-form" onSubmit={handleSubmit}>
@@ -71,7 +71,7 @@ function ContactForm(props) {
                             <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                    <button type="submit">Submit</button>
+                    <button type="submit">SUBMIT</button>
                 </div>
             </form>
         </section>

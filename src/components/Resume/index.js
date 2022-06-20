@@ -1,9 +1,9 @@
 import React from 'react';
-import { GrDocumentDownload } from "react-icons/gr";
+import { HiOutlineDocumentDownload } from "react-icons/hi";
 
 function Resume () {
     return(
-        <section className="title-containter">
+        <section className="title-container">
             <div className="resume-text">
                 {/* Work Experience */}
                 <div className="ex-section">
@@ -77,8 +77,9 @@ function Resume () {
                     </ul>
                 </div>
                 <div className="download-div">
+                    <p>Download Resume:</p>
                     <a href="../assets/images/Resume6-2022.pdf" download>
-                        <GrDocumentDownload></GrDocumentDownload>
+                        <HiOutlineDocumentDownload></HiOutlineDocumentDownload>
                     </a>
                 </div>
             </div>

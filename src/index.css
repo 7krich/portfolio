@@ -195,18 +195,22 @@ h1 {
 
 .download-div svg{
   font-size: 60px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 10px;
   box-shadow: 1px 1px 1cm rgba(46, 46, 46, 0.241);
   margin-top: 20px;
+  margin-bottom: 60px;
+  color: rgb(255, 255, 255);
+  background-color: var(--secondary)
 }
 
 .download-div svg:hover {
   font-size: 65px;
   transition-duration: 1s;
+  box-shadow: 2px 2px 1cm rgba(63, 239, 255, 0.3);
 }
 
 /* gallery photo styles */
@@ -275,7 +279,6 @@ h1 {
   width: 50%;
   margin: auto;
   justify-content: center;
-  text-align: left;
 }
 
 .text-field {
@@ -285,15 +288,36 @@ h1 {
   margin: auto;
   margin-bottom: 20px;
   padding-top: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .text-field:focus {
   border: none;
   border-bottom: 2px solid var(--tertiary);
   outline: none;
-  transition-duration: 1s;
+  -moz-transition: 1s ease all; 
+  -webkit-transition: 1s ease all;
+}
+
+button {
+  margin-left: 25%;
+  width: 50%;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--secondary);
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+button:hover {
+  background-image: linear-gradient(rgb(201, 235, 253), var(--tertiary));
+  -webkit-transition: 1s ease all;
+  color: var(--secondary);
+  font-weight: normal;
+  text-shadow: 1px 1px 1cm rgb(253, 253, 253);
+  box-shadow: 1px 1px 1cm rgba(46, 46, 46, 0.241);
 }
 
 /* About Me styles */

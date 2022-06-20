@@ -6,7 +6,7 @@ function Experience (props) {
     const { currentCategory } = props;
 
     return(
-        <section className="title-containter">
+        <section className="title-container">
             <h1 className="page-title-text">{capitalizeFirstLetter(currentCategory.name)}</h1>
             <div className="resume-text">
                 <Resume></Resume>
