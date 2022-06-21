@@ -247,13 +247,14 @@ h1 {
   padding-bottom: 20px;
   border-radius: 10px;
   box-shadow: 1px 1px 1cm rgba(46, 46, 46, 0.241);
-  color: var(--tertiary);
+  color: white;
   background-color: var(--secondary)
 }
 
 .download-div svg:hover {
   font-size: 65px;
   transition-duration: 1s;
+  color: var(--tertiary);
   box-shadow: 2px 2px 1cm rgba(63, 239, 255, 0.3);
 }
 
