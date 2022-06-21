@@ -157,46 +157,98 @@ h1 {
 /* experience body text */
 .resume-text {
   text-align: center;
+  padding-top: 20px;
 }
 
-.ex-section, .ed-section {
-  padding-top: 20px;
+.rkt, .newday, .msu, .aacc {
+  width: 50%;
+  margin: 0;
+}
+
+.rkt, .umd, .newday, .aacc {
+  border-right: 6px solid var(--secondary);
+}
+
+.rkt {
+  border-top-right-radius: 6px;
+}
+
+.line-left, .line-right {
+  background-image: linear-gradient(to right, rgb(49, 49, 49), var(--secondary));
+  height: 6px;
+  width: 25%;
+  float: right;
+}
+
+.line-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.line-right {
+  float: left;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.umd, .msu {
+  margin-left: 50%;
+  border-left: 6px solid black;
+}
+
+.aacc {
+  padding-bottom: 100px;
 }
 
 .duties {
   background-color: var(--secondary);
-  max-width: 25%;
   margin: auto;
+  width: 60%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   color: white;
   text-align: left;
   font-size: 12px;
 }
 
-.heading {
-  max-width: 20%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-right: 4px solid rgba(63, 239, 255, 0.5);
+.rkt .heading {
+  border-left: 4px solid rgba(63, 239, 255, 0.5);
   border-bottom: 4px solid rgba(63, 239, 255, 0.5);
-  border-radius: 8px;
 }
 
-.ed-heading {
-  max-width: 35%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.newday .heading {
+  border-left: 4px solid rgba(63, 239, 255, 0.5);
+  border-bottom: 4px solid rgba(63, 239, 255, 0.5);
+}
+
+.umd .ed-heading {
   border-right: 4px solid rgba(63, 239, 255, 0.5);
   border-bottom: 4px solid rgba(63, 239, 255, 0.5);
+}
+
+.msu .ed-heading {
+  border-right: 4px solid rgba(63, 239, 255, 0.5);
+  border-bottom: 4px solid rgba(63, 239, 255, 0.5);
+}
+
+.aacc .ed-heading {
+  border-left: 4px solid rgba(63, 239, 255, 0.5);
+  border-bottom: 4px solid rgba(63, 239, 255, 0.5);
+}
+
+.heading, .ed-heading {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 8px;
+  font-size: 40px;
 }
 
 .download-div svg{
@@ -207,8 +259,6 @@ h1 {
   padding-bottom: 20px;
   border-radius: 10px;
   box-shadow: 1px 1px 1cm rgba(46, 46, 46, 0.241);
-  margin-top: 20px;
-  margin-bottom: 60px;
   color: rgb(255, 255, 255);
   background-color: var(--secondary)
 }
@@ -217,6 +267,10 @@ h1 {
   font-size: 65px;
   transition-duration: 1s;
   box-shadow: 2px 2px 1cm rgba(63, 239, 255, 0.3);
+}
+
+section {
+  padding-bottom: 40px;
 }
 
 /* gallery photo styles */
@@ -504,6 +558,33 @@ nav {
   z-index: 10;
 }
 
+.rkt, .newday, .msu, .umd, .aacc {
+  border: none;
+  width: 75%;
+  margin: 0;
+  margin-left: 12.5%;
+}
+
+.line-left, .line-right {
+  height: 0;
+  width: 0;
+}
+
+.heading, .ed-heading {
+  max-width: 90%;
+  margin-top: 30px;
+}
+
+.duties {
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.aacc {
+  padding-bottom: 20px;
+}
+
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -581,6 +662,25 @@ nav {
 
   .about-me {
     width: 75%;
+  }
+
+  .heading, .ed-heading {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .msu, .umd {
+    width: 100%;
+    background-color: var(--secondary);
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
 }
