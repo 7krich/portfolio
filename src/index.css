@@ -385,12 +385,16 @@ section {
 }
 
 .form-button:hover {
-  background-image: linear-gradient(rgb(226, 226, 226), var(--tertiary));
+  background-color: var(--tertiary);
   -webkit-transition: .5s ease all;
   color: var(--secondary);
   font-weight: normal;
   text-shadow: 1px 1px 1cm rgb(253, 253, 253);
   box-shadow: 1px 1px 1cm rgba(46, 46, 46, 0.241);
+}
+
+.form-button:active {
+  background-color: rgba(46, 46, 46);
 }
 
 /* About Me styles */
