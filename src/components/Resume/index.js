@@ -39,7 +39,7 @@ function Resume () {
                             Full Stack Software Development Bootcamp Certificate
                         </h4>
                         <h5>
-                            Jan 2020 - July 2022
+                            Jan 2022 - July 2022
                         </h5>
                         <ul className="duties">
                             <li>Developed full stack web applications utilizing the M.E.R.N. stack.</li>
