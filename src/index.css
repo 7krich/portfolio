@@ -164,6 +164,7 @@ h1 {
   margin: 0;
   margin-left: 12.5%;
   padding-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .line-left, .line-right {
@@ -235,7 +236,7 @@ h1 {
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 8px;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .download-div svg{
@@ -254,6 +255,16 @@ h1 {
   font-size: 65px;
   transition-duration: 1s;
   box-shadow: 2px 2px 1cm rgba(63, 239, 255, 0.3);
+}
+
+h5 {
+  background-color: var(--secondary);
+  width: 150px;
+  margin: auto;
+  padding: .5%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: white;
 }
 
 section {
@@ -669,6 +680,15 @@ nav {
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .msu h5, .umd h5 {
+    background-color: white;
+    color: var(--secondary);
+  }
+
+  h5 {
+    padding: 3px;
   }
 
   .msu .duties, .umd .duties {

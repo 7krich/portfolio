@@ -19,6 +19,9 @@ function Resume () {
                         <h4 className="position">
                             Mortgage Banker / Underwriter
                         </h4>
+                        <h5>
+                            Jan 2020 - May 2022
+                        </h5>
                         <ul className="duties">
                             <li>Managed and closed $8.1 million pipeline on a consistent basis.</li>
                             <li>Effectively prepared & presented customized mortgage solutions to potential clients, closing over 40 transactions per month.</li>
@@ -35,6 +38,9 @@ function Resume () {
                         <h4 className="degree">
                             Full Stack Software Development Bootcamp Certificate
                         </h4>
+                        <h5>
+                            Jan 2020 - July 2022
+                        </h5>
                         <ul className="duties">
                             <li>Developed full stack web applications utilizing the M.E.R.N. stack.</li>
                             <li>Constructed CRUD relational databases using mySQL & Sequelize.</li>
@@ -50,6 +56,9 @@ function Resume () {
                         <h4 className="position">
                             Mortgage Banker
                         </h4>
+                        <h5>
+                            June 2018 - Jan 2020
+                        </h5>
                         <ul className="duties">
                             <li>Analyzed customer applications, credit reports and sensitive consumer documentation.</li>
                             <li>Followed up on over 30 inbound, outbound, and direct marketing leads daily.</li>
@@ -69,6 +78,9 @@ function Resume () {
                         <h4 className="degree">
                             Bachelor of Arts, Economics
                         </h4>
+                        <h5>
+                            Aug 2016 - May 2018
+                        </h5>
                         <ul className="duties">
                             <li>Selected coursework: Game Theory, Microeconomics, Business Statistics & Economic Geography</li>
                         </ul>
@@ -86,6 +98,9 @@ function Resume () {
                         <h4 className="degree">
                             Associate of Applied Science, Management
                         </h4>
+                        <h5>
+                            Aug 2011 - July 2016
+                        </h5>
                         <ul className="duties">
                             <li>Certificate - Business Management(Marketing & Advertising)</li>
                             <li>Certificate - Business Management(Business Communications))</li>
@@ -95,14 +110,14 @@ function Resume () {
 
                 {/* links */}
                 <div className="download-div">
-                    <h5>Client Reviews:</h5>
+                    <h4>Client Reviews:</h4>
                         <a href="https://social.pr/p/rocket-mortgage-refinance-team/KyleRichnafsky/" target="_blank" rel="noreferrer">
                             <VscPreview></VscPreview>
                         </a>
                 </div>
 
                 <div className="download-div">
-                    <h5>Download Resume:</h5>
+                    <h4>Download Resume:</h4>
                     <a href="https://drive.google.com/file/d/1eU1ucSxRckMYr-HXHBI4bbcEgYpxiMl-/view?usp=sharing" download target="_blank" rel="noreferrer">
                         <HiOutlineDocumentDownload></HiOutlineDocumentDownload>
                     </a>
