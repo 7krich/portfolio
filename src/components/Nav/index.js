@@ -3,7 +3,7 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 import Hamburger from '../Hamburger'
 
 const Nav = (props) => {
-    // add useState hook to have option to easilty change categories in future
+    // add useState hook to have option to easily change categories in future
     const {
         categories = [],
         setCurrentCategory,
@@ -64,8 +64,14 @@ const Nav = (props) => {
                         display: ${hamburgerOpen ? 'inline' : 'none'};
                 }
                     .dynamic-nav {
-                        padding-top: ${hamburgerOpen ? '40px' : '0px'};
-                        padding-bottom: ${hamburgerOpen ? '20px' : '10px'};
+                        padding-top: ${hamburgerOpen ? '40px' : '40px'};
+                        padding-bottom: ${hamburgerOpen ? '20px' : '40px'};
+                }
+                    .portfolio-pic, .title {
+                        display: ${hamburgerOpen ? 'inline' : 'none'};
+                }
+                footer p {
+                    display: ${hamburgerOpen ? 'inline' : 'none'};
                 }
                 `}</style>
             </nav>

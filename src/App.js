@@ -9,9 +9,9 @@ import Footer from './components/Footer';
 function App() {
   const [categories] = useState([
     {
-      name: 'Projects'
+      name: 'About Me'
     },
-    { name: 'About Me'},
+    { name: 'Projects'},
     { name: 'Contact'},
     { name: 'Experience'}
   ]);
@@ -27,11 +27,11 @@ function App() {
         ></Nav>
       <main>
           <>
-          { currentCategory.name === 'Projects' &&
-            <Projects currentCategory={currentCategory}></Projects>
-          }
-          { currentCategory.name === 'About Me' && 
+          { currentCategory.name === 'About Me' &&
             <AboutMe currentCategory={currentCategory}></AboutMe>
+          }
+          { currentCategory.name === 'Projects' && 
+            <Projects currentCategory={currentCategory}></Projects>
           }
           { currentCategory.name === 'Contact' && 
             <Contact currentCategory={currentCategory}></Contact>

@@ -96,14 +96,14 @@ function Resume () {
                 {/* links */}
                 <div className="download-div">
                     <h5>Client Reviews:</h5>
-                        <a href="https://social.pr/p/rocket-mortgage-refinance-team/KyleRichnafsky/">
+                        <a href="https://social.pr/p/rocket-mortgage-refinance-team/KyleRichnafsky/" target="_blank" rel="noreferrer">
                             <VscPreview></VscPreview>
                         </a>
                 </div>
 
                 <div className="download-div">
                     <h5>Download Resume:</h5>
-                    <a href="../../../public/resume/Resume6-2022.pdf" download>
+                    <a href="https://drive.google.com/file/d/1eU1ucSxRckMYr-HXHBI4bbcEgYpxiMl-/view?usp=sharing" download target="_blank" rel="noreferrer">
                         <HiOutlineDocumentDownload></HiOutlineDocumentDownload>
                     </a>
                 </div>
