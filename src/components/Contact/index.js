@@ -48,7 +48,7 @@ function ContactForm(props) {
         console.log(formState);
     }
     return(
-        <section>
+        <section className="contact">
             <div className="title-container">
                 <h1 className="page-title-text">{capitalizeFirstLetter(currentCategory.name)}</h1>
             </div>

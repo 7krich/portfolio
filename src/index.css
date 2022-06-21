@@ -397,6 +397,10 @@ section {
   background-color: rgba(46, 46, 46);
 }
 
+main .contact {
+  margin-bottom: 5.5%;
+}
+
 /* About Me styles */
 .about-me {
   padding-top: 20px;
@@ -636,6 +640,7 @@ nav {
   .heading, .ed-heading {
     max-width: 90%;
     padding: 10px;
+    margin: auto;
   }
 
   .msu, .umd {
