@@ -51,7 +51,7 @@ function Resume () {
 
                     {/* Michigan State */}
                     <h3 className="ed-heading">
-                        Michigan State University, Lansing, MI
+                        Michigan State University, East Lansing, MI
                     </h3>
                     <h4 className="degree">
                         Full Stack Software Development Bootcamp Certificate
@@ -78,7 +78,7 @@ function Resume () {
                 </div>
                 <div className="download-div">
                     <p>Download Resume:</p>
-                    <a href="../assets/images/Resume6-2022.pdf" download>
+                    <a href="../../../public/resume/Resume6-2022.pdf" download>
                         <HiOutlineDocumentDownload></HiOutlineDocumentDownload>
                     </a>
                 </div>
