@@ -7,7 +7,7 @@ function Projects (props) {
     const { currentCategory } = props;
     
     return(
-        <section>
+        <section className="projects">
             <div className="title-container">
                 <h1 className="page-title-text">{capitalizeFirstLetter(currentCategory.name)}</h1>
             </div>

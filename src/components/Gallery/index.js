@@ -46,8 +46,8 @@ function Gallery () {
                 <img  
                     src={require(`../../assets/images/pizzaHunt.jpg`)}
                     className="gallery-pics"
-                    alt= "Le Festin"
-                    key= "Le Festin"
+                    alt= "Pizza Hunt"
+                    key= "Pizza Hunt"
                 />
                 </a>
                 <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/pizza-hunt')}>
@@ -55,6 +55,50 @@ function Gallery () {
                 </button>
             </div>
 
+            {/* proj 4 */}
+            <div className="single-photo">
+            <a className="link" href="https://github.com/7krich/run-buddy.git" target="_blank" rel="noreferrer"> 
+                <img  
+                    src={require(`../../assets/images/runBuddy.png`)}
+                    className="gallery-pics"
+                    alt= "Run Buddy"
+                    key= "Run Buddy"
+                />
+                </a>
+                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/run-buddy')}>
+                View Github
+                </button>
+            </div>
+
+            {/* proj 5 */}
+            <div className="single-photo">
+            <a className="link" href="https://stark-shelf-25788.herokuapp.com/" target="_blank" rel="noreferrer"> 
+                <img  
+                    src={require(`../../assets/images/noteTaker.png`)}
+                    className="gallery-pics"
+                    alt= "Note Taker"
+                    key= "Note Taker"
+                />
+                </a>
+                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/Express-Note-Taker')}>
+                View Github
+                </button>
+            </div>
+
+            {/* proj 6 */}
+            <div className="single-photo">
+            <a className="link" href="https://7krich.github.io/work-day-scheduler/" target="_blank" rel="noreferrer"> 
+                <img  
+                    src={require(`../../assets/images/dayPlanner.png`)}
+                    className="gallery-pics"
+                    alt= "Note Taker"
+                    key= "Note Taker"
+                />
+                </a>
+                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/work-day-scheduler')}>
+                View Github
+                </button>
+            </div>
         </div>
     </container>
         

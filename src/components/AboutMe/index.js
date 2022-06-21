@@ -10,6 +10,13 @@ function AboutMe (props) {
                 <h1 className="page-title-text">{capitalizeFirstLetter(currentCategory.name)}</h1>
             </div>
 
+            <div className="profile-container">
+                <img className="profile-pic"
+                    src={require('../../assets/images/profilePic.JPG')}
+                    alt="Author"
+                />
+            </div>
+
             <section className="about-me">
                 <p>
                     Hello! My name is Kyle Richnafsky and I'm a software engineering student at Michigan State University. I'm 28 years old with a financial services background. My main goal is to use my industry knowledge and newfound skills to improve the Fintech industry one application at a time.
