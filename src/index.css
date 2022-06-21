@@ -32,10 +32,6 @@ code {
   --tertiary: rgb(63, 239, 255);
 }
 
-.projects {
-  padding-bottom: 60px;
-}
-
 /* nav css */
 h2 {
   margin-top: 20px;
@@ -73,6 +69,8 @@ nav li {
   flex-wrap: wrap;
   background-color: var(--secondary);
   position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 nav {
@@ -423,8 +421,8 @@ section {
 
 /* footer styles */
 footer {
+  margin-top: 20px;
   background-color:var(--secondary);
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;

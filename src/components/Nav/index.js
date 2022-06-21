@@ -64,14 +64,14 @@ const Nav = (props) => {
                         display: ${hamburgerOpen ? 'inline' : 'none'};
                 }
                     .dynamic-nav {
-                        padding-top: ${hamburgerOpen ? '40px' : '40px'};
-                        padding-bottom: ${hamburgerOpen ? '20px' : '40px'};
+                        padding-top: ${hamburgerOpen ? '40px' : '20px'};
+                        padding-bottom: ${hamburgerOpen ? '20px' : '20px'};
                 }
                     .portfolio-pic, .title {
                         display: ${hamburgerOpen ? 'inline' : 'none'};
                 }
-                footer p {
-                    display: ${hamburgerOpen ? 'inline' : 'none'};
+                    footer p {
+                        display: ${hamburgerOpen ? 'inline' : 'none'};
                 }
                 `}</style>
             </nav>
