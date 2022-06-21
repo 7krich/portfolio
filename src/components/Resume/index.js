@@ -33,7 +33,7 @@ function Resume () {
                     <div className="msu">
                         <div className ="line-right"></div>
                         <h3 className="ed-heading">
-                            Michigan State University, East Lansing, MI
+                            Michigan State University
                         </h3>
                         <h4 className="degree">
                             Full Stack Software Development Bootcamp Certificate
@@ -73,7 +73,7 @@ function Resume () {
                     <div className="umd">
                         <div className ="line-right"></div>
                         <h3 className="ed-heading">
-                            University of Maryland, College Park, MD
+                            University of Maryland
                         </h3>
                         <h4 className="degree">
                             Bachelor of Arts, Economics
@@ -90,7 +90,7 @@ function Resume () {
                     <div className="aacc">
                         <div className ="line-left"></div>
                         <h3 className="ed-heading">
-                        Anne Arundel Community College, Arnold, MD
+                        Anne Arundel Community College
                         </h3>
                         <h4 className="degree">
                             Associate of Arts, Visual Arts
