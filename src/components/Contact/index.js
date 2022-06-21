@@ -17,7 +17,7 @@ function ContactForm(props) {
             const isValid = validateEmail(e.target.value);
             // isValid conditional statement
             if(!isValid) {
-                setErrorMessage('Your email is invalid.');
+                setErrorMessage('your email is invalid');
             } else {
                 // if valid, err msg is empty string
                 setErrorMessage('');
@@ -26,7 +26,7 @@ function ContactForm(props) {
             // if message or name element values are blank
             if(!e.target.value.length) {
                 // send err msg
-                setErrorMessage(`${e.target.name} is required.`);
+                setErrorMessage(`${e.target.name} is required`);
                 // if not empty, err msg is empty string
             } else {
                 setErrorMessage('');
@@ -56,15 +56,15 @@ function ContactForm(props) {
                 <div className="center">
                     <div>
                         <label htmlFor="name" className="field-title" >Name:</label>
-                        <input type="text" className="text-field" defaultValue={name} name="name" onBlur={handleChange}/>
+                        <input type="text" placeholder="Full Name" className="text-field" defaultValue={name} name="name" onBlur={handleChange}/>
                     </div>
                     <div>
                         <label htmlFor="email" className="field-title">Email address:</label>
-                        <input type="email" className="text-field" defaultValue = {email} name="email" onBlur={handleChange} />
+                        <input type="email" placeholder ="example@gmail.com" className="text-field" defaultValue = {email} name="email" onBlur={handleChange} />
                     </div>
                     <div>
                         <label htmlFor="message" className="field-title">Message:</label>
-                        <textarea name="message" className="text-field" defaultValue = {message} onBlur={handleChange} rows="5" />
+                        <textarea name="message" placeholder="Your message here..." className="text-field" defaultValue = {message} onBlur={handleChange} rows="5" />
                     </div>
                     {errorMessage && (
                         <div>

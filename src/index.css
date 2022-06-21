@@ -355,6 +355,10 @@ section {
   justify-content: center;
 }
 
+.field-title {
+  font-weight: bold;
+}
+
 .text-field {
   border: none;
   border-bottom: 2px solid black;
@@ -362,6 +366,9 @@ section {
   margin: auto;
   margin-bottom: 20px;
   padding-top: 15px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  padding-left: 10px;
 }
 
 .text-field:focus {
@@ -369,6 +376,13 @@ section {
   border-bottom: 2px solid var(--tertiary);
   outline: none;
   -webkit-transition: .5s ease all;
+}
+
+.error-text {
+  color: red;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 .form-button {
