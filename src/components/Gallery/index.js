@@ -42,21 +42,6 @@ function Gallery () {
 
             {/* proj 3 */}
             <div className="single-photo">
-            <a className="link" href="https://fathomless-cliffs-19323.herokuapp.com/" target="_blank" rel="noreferrer"> 
-                <img  
-                    src={require(`../../assets/images/pizzaHunt.jpg`)}
-                    className="gallery-pics"
-                    alt= "Pizza Hunt"
-                    key= "Pizza Hunt"
-                />
-                </a>
-                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/pizza-hunt')}>
-                View Github
-                </button>
-            </div>
-
-            {/* proj 4 */}
-            <div className="single-photo">
             <a className="link" href="https://github.com/7krich/run-buddy.git" target="_blank" rel="noreferrer"> 
                 <img  
                     src={require(`../../assets/images/runBuddy.png`)}
@@ -70,7 +55,7 @@ function Gallery () {
                 </button>
             </div>
 
-            {/* proj 5 */}
+            {/* proj 4 */}
             <div className="single-photo">
             <a className="link" href="https://stark-shelf-25788.herokuapp.com/" target="_blank" rel="noreferrer"> 
                 <img  
@@ -81,21 +66,6 @@ function Gallery () {
                 />
                 </a>
                 <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/Express-Note-Taker')}>
-                View Github
-                </button>
-            </div>
-
-            {/* proj 6 */}
-            <div className="single-photo">
-            <a className="link" href="https://7krich.github.io/work-day-scheduler/" target="_blank" rel="noreferrer"> 
-                <img  
-                    src={require(`../../assets/images/dayPlanner.png`)}
-                    className="gallery-pics"
-                    alt= "Note Taker"
-                    key= "Note Taker"
-                />
-                </a>
-                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/work-day-scheduler')}>
                 View Github
                 </button>
             </div>

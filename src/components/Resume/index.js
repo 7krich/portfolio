@@ -118,7 +118,7 @@ function Resume () {
 
                 <div className="download-div">
                     <h4>Download Resume:</h4>
-                    <a href="https://drive.google.com/file/d/1eU1ucSxRckMYr-HXHBI4bbcEgYpxiMl-/view?usp=sharing" download target="_blank" rel="noreferrer">
+                    <a href="https://drive.google.com/file/d/1TmhQbigqlUfJ7he44UQK9oiuMdycs4K8/view?usp=sharing" download target="_blank" rel="noreferrer">
                         <HiOutlineDocumentDownload></HiOutlineDocumentDownload>
                     </a>
                 </div>
