@@ -27,21 +27,6 @@ function Gallery () {
 
             {/* proj 2 */}
             <div className="single-photo">
-            <a className="link" href="https://7krich.github.io/project01/" target="_blank" rel="noreferrer"> 
-                <img  
-                    src={require(`../../assets/images/front-end/0.jpg`)}
-                    className="gallery-pics"
-                    alt= "Le Festin"
-                    key= "Le Festin"
-                />
-                </a>
-                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/project01')}>
-                View Github
-                </button>
-            </div>
-
-            {/* proj 3 */}
-            <div className="single-photo">
             <a className="link" href="https://github.com/7krich/run-buddy.git" target="_blank" rel="noreferrer"> 
                 <img  
                     src={require(`../../assets/images/runBuddy.png`)}
@@ -55,7 +40,7 @@ function Gallery () {
                 </button>
             </div>
 
-            {/* proj 4 */}
+            {/* proj 3 */}
             <div className="single-photo">
             <a className="link" href="https://stark-shelf-25788.herokuapp.com/" target="_blank" rel="noreferrer"> 
                 <img  
