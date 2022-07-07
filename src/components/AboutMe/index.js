@@ -19,7 +19,7 @@ function AboutMe (props) {
 
             <section className="about-me">
                 <p>
-                    Hello! My name is Kyle Richnafsky and I'm a software engineering student at Michigan State University. I'm 29 years old with a financial services background. My main goal is to use my industry knowledge and newfound skills to improve the Fintech industry.
+                    Hello! My name is Kyle Richnafsky and I'm a software engineering student at Michigan State University. I'm 29 years old with a financial services background. My main goal is to use my industry knowledge and newfound skills to improve the FinTech industry.
                 </p>
                 <p>
                     I love spending time with family, cooking, hiking, golf and traveling in my free time. Over the years I've studied economics, financial markets, sustainability and graphic design. I graduated from the University of Maryland with a B.S. in Economics and a Minor in Sustainability in 2018. Prior to that I received my A.A. in Visual Arts & Business Management.
