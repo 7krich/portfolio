@@ -54,6 +54,21 @@ function Gallery () {
                 View Github
                 </button>
             </div>
+
+            {/* proj 4 */}
+            <div className="single-photo">
+            <a className="link" href="https://delusionaldinos.herokuapp.com/" target="_blank" rel="noreferrer"> 
+                <img  
+                    src={require(`../../assets/images/DDAA.png`)}
+                    className="gallery-pics"
+                    alt= "DDAA"
+                    key= "DDAA"
+                />
+                </a>
+                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/Express-Note-Taker')}>
+                View Github
+                </button>
+            </div>
         </div>
     </container>
         
