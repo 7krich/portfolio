@@ -35,7 +35,7 @@ function Gallery () {
                     key= "Run Buddy"
                 />
                 </a>
-                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/run-buddy')}>
+                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/run-buddy.git')}>
                 View Github
                 </button>
             </div>
