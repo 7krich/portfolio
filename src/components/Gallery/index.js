@@ -65,7 +65,7 @@ function Gallery () {
                     key= "DDAA"
                 />
                 </a>
-                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/Express-Note-Taker')}>
+                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/jjakobsons87/dino-adoption')}>
                 View Github
                 </button>
             </div>
