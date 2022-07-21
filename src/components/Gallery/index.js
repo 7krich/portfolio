@@ -9,8 +9,37 @@ function Gallery () {
     return (
         <container className="flex">
         <div className="img-container">
-
             {/* proj 1 */}
+            <div className="single-photo">
+            <a className="link" target="_blank" rel="noreferrer"> 
+                <img  
+                    src={require(`../../assets/images/richSvcUC.png`)}
+                    className="gallery-pics"
+                    alt= "Rich SVC"
+                    key= "Rich SVC"
+                />
+            </a>
+                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/rich-svc')}>
+                    View Github
+                </button>
+            </div>
+
+            {/* proj 2 */}
+            <div className="single-photo">
+            <a className="link" href="https://delusionaldinos.herokuapp.com/" target="_blank" rel="noreferrer"> 
+                <img  
+                    src={require(`../../assets/images/DDAA.png`)}
+                    className="gallery-pics"
+                    alt= "DDAA"
+                    key= "DDAA"
+                />
+            </a>
+                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/jjakobsons87/dino-adoption')}>
+                    View Github
+                </button>
+            </div>
+
+            {/* proj 3 */}
             <div className="single-photo">
                 <a className="link" href="https://limitless-journey-42984.herokuapp.com/" target="_blank" rel="noreferrer"> 
                     <img  
@@ -25,7 +54,7 @@ function Gallery () {
                 </button>
             </div>
 
-            {/* proj 2 */}
+            {/* proj 4 */}
             <div className="single-photo">
             <a className="link" href="https://github.com/7krich/run-buddy.git" target="_blank" rel="noreferrer"> 
                 <img  
@@ -40,7 +69,7 @@ function Gallery () {
                 </button>
             </div>
 
-            {/* proj 3 */}
+            {/* proj 5 */}
             <div className="single-photo">
             <a className="link" href="https://stark-shelf-25788.herokuapp.com/" target="_blank" rel="noreferrer"> 
                 <img  
@@ -51,21 +80,6 @@ function Gallery () {
                 />
                 </a>
                 <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/7krich/Express-Note-Taker')}>
-                View Github
-                </button>
-            </div>
-
-            {/* proj 4 */}
-            <div className="single-photo">
-            <a className="link" href="https://delusionaldinos.herokuapp.com/" target="_blank" rel="noreferrer"> 
-                <img  
-                    src={require(`../../assets/images/DDAA.png`)}
-                    className="gallery-pics"
-                    alt= "DDAA"
-                    key= "DDAA"
-                />
-                </a>
-                <button className="gh-buttons" onClick={() => openInNewTab('https://github.com/jjakobsons87/dino-adoption')}>
                 View Github
                 </button>
             </div>
