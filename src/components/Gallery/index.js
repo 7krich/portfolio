@@ -13,7 +13,7 @@ function Gallery () {
             <div className="single-photo">
             <a className="link" target="_blank" rel="noreferrer"> 
                 <img  
-                    src={require(`../../assets/images/richSvcUC.png`)}
+                    src={require(`../../assets/images/rich-svc.png`)}
                     className="gallery-pics"
                     alt= "Rich SVC"
                     key= "Rich SVC"
